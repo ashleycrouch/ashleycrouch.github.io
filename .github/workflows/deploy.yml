@@ -13,12 +13,10 @@ permissions:
 concurrency:
   group: "pages"
   cancel-in-progress: false
- 
-platform: &platform ubuntu-22.04
 
 jobs:
   build:
-    runs-on: *platform
+    runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v3
         with:
