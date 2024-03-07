@@ -10,13 +10,13 @@ const config: QuartzConfig = {
   configuration: {
     // Add your data here
     landingPageData: {
-      authorName: "Jane Doe",
+      authorName: "Ashley Crouch",
       authorImageUrl: "default-author-image.jpeg",
       intro: {
         title: "Welcome!",
         firstLeadUp: "I'm",
         secondLeadUp: "and I'm a",
-        whatIDo: ["Profession 1", "Hobbyist 1", "Digital Gardener"],
+        whatIDo: ["Software Engineer", "Find a hobby", "Digital Gardener"],
       },
       showcaseItems: [
         {
